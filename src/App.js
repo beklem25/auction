@@ -18,10 +18,9 @@ const App = () => {
                 <div className='app-wrapper-profile'>
 
 
-
-                <Route path='/profile' component={Profile}/>
-                <Route path='/dialogs' component={Dialogs}/>
-                 <Route path='/lot' component={Lot}/>
+                    <Route path='/profile' component={Profile}/>
+                    <Route path='/dialogs' component={Dialogs}/>
+                    <Route path='/lot' component={Lot}/>
 
 
                 </div>
