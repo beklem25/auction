@@ -10,7 +10,7 @@ const Nav = () => {
         <nav className={s.nav}>
 
             <div className={s.item}>
-            <a>profile</a>
+            <a>профиль</a>
             </div>
     <div className={s.item}>
     <a>messs</a>
