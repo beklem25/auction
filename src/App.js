@@ -16,13 +16,16 @@ const App = () => {
                 <Header/>
                 <Nav/>
                 <div className='app-wrapper-profile'>
-                <Profile/>
+
+
+
                 <Route path='/profile' component={Profile}/>
                 <Route path='/dialogs' component={Dialogs}/>
-                <Dialogs/>
-                <Lot/>
+                 <Route path='/lot' component={Lot}/>
+
 
                 </div>
+
             </div>
         </BrowserRouter>
     )

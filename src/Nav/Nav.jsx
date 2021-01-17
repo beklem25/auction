@@ -10,13 +10,13 @@ const Nav = () => {
         <nav className={s.nav}>
 
             <div className={s.item}>
-            <a>профиль</a>
+            <a href='/profile'>профиль</a>
             </div>
     <div className={s.item}>
-    <a>messs</a>
+    <a href='/dialogs'>messs</a>
     </div>
 <div className={s.item}>
-<a>lots</a>
+<a href='lots'>lots</a>
         </div>
 
         </nav>
