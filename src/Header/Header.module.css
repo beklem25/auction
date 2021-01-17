@@ -1,0 +1,14 @@
+.header img{
+    width: 90px;
+    height: 50px;
+}
+
+
+
+.header {
+    grid-area:h;
+    font-size: calc(10px + 2vmin);
+    background-color: darkmagenta;
+    color: darkred;
+
+}
